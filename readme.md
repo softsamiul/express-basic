@@ -18,7 +18,7 @@
 ### Lesson -2 HTTP methods and postman
 
 HTTP Methods
-<img src='./Lesson-1-create-express-server/img/http-methods.png' alt='http-methods' width='500' height='auto'>
+<img src='./Lesson-1-create-express-server/img/http-methods.png' alt='http-methods' width='500' height='auto' style="display:block">
 
 
 =====================================
