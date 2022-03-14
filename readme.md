@@ -15,11 +15,15 @@
 ### Lesson -1 Create Express Server
 
 ===================================
-### Lesson -2 Create Express Server
+### Lesson -2 HTTP methods and postman
+
+HTTP Methods
+<img src='./Lesson-1-create-express-server/img/http-methods.png' alt='http-methods' width='300' height='auto'>
+
+
 
 =====================================
 ### Lesson -3 HTTP Methods and Postman
 
-HTTP Methods
-<img src='./Lesson-1-create-express-server/img/http-methods.png' alt='http-methods'>
+
 
