@@ -36,18 +36,31 @@ After writing route in route file then export that file route and inclune or req
 
 
 ===========================================================
-### Lesson -3 HTTP Response
+### Lesson -3 HTTP Response and Cookie
 
     1.Body can contain data as HTML, text, JSON etc
     2. cookies
     3. Headers
     4. Status code
 
+** res.sendFile(__dirname+directory) -> used to send html file as response
+** res.send(string value) -> used to send plane text file as response
+** res.json(JSON value) -> used to send JSON file as response
+** res.cookie(key,value) -> used to send cookie as response
+** res.clearCookie(key name) -> used to clear cookie in response
+** res.redirect(directory) -> used to redirect the url or path
+** res.status(statuscode) -> used to send the statuscode in response
+
+###NB: Implemented code will be found in Lesson-2 folder
+
+===========================================================
+### Lesson - 4 HTTP Reequest, Query Parameter, Route Parameter and request header
+
+**NB: All the implementation and explanation will be found at folder: Lesson-4-http-req-query-parameter
 
 
-
-
-
+===========================================================
+### Lesson - 5
 
 
 
