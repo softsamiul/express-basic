@@ -62,6 +62,38 @@ After writing route in route file then export that file route and inclune or req
 ===========================================================
 ### Lesson - 5 Area Calculator app
 
+** NB: Source code in lesson 5 older
+
+===========================================================
+### Lesson - 6 env variable
+
+Q: What is .env file?
+=> .env file full form environment file. It's a secret/hidden file - only I can access it.
+
+Q: Why .env file?
+
+=> To store private environment variables for our application. Example - 
+    1. http PORT to listen the server
+    2. Database url
+    3. API keys etc..
+
+Gitlab / heroku support the usage of environment variables.
+
+
+How to use .env variables?
+
+=> 
+Step 1: Create an .env file in the root directory
+
+Step 2: define environment variables using uppercase letters and underscore if more than one work for example - PORT, SATABASE_URL
+
+Step 3: Assign the values without quatation or space, example - PORT=3000
+
+Step 4: You can make a comment using # 
+Example: 
+#server port
+PORT=3000
+
 
 
 

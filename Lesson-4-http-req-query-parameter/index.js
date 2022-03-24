@@ -7,6 +7,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 // parse application/json
 app.use(bodyParser.json())
+
 const appRouter = require('./app')
 
 app.use(appRouter)
