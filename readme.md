@@ -65,8 +65,9 @@ After writing route in route file then export that file route and inclune or req
 ** NB: Source code in lesson 5 older
 
 ===========================================================
-### Lesson - 6 env variable
+### Lesson - 6 env variable and Middleware
 
+# env Variable
 Q: What is .env file?
 => .env file full form environment file. It's a secret/hidden file - only I can access it.
 
@@ -95,6 +96,36 @@ Example:
 PORT=3000
 
 
+# Middleware
+
+Q: What is middleware?
+
+=> Middleware is a function with three important things - 
+    1. Req object
+    2. res object
+    3. next function
+** Next function: When the middleware function executed then by using next function helps to return the main place.
+
+Q: What can we do using middleware functio?
+
+=>  1. Execute any code
+    2. Make changes to the reqest or response objects
+    3. Call the next middleware in the stack
 
 
 
+Q: Wrere can we use middleware
+
+===========================================================
+### Lesson - 7 MVC Architecture
+
+Q: What is MVC?
+
+=> MVC stands for Model View Controler, it helps to organize the code or separate the code logically.
+
+    1. Separation of cencerns (Which part is responsible for what)
+    2. Models (Delas with database)
+    3. views (What users sees)
+    4. Routes
+    5. Controllers (Connection point between model and view)
+    6. Controllers have all the logic
